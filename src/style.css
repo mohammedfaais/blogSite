@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #fef9f8;
+  font-family: roboto;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+}
+
+.navbar .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .nav-header__brandName {
+  font-size: 24px;
+  color: peru;
+  text-transform: uppercase;
+}
+
+.navbar .nav-links__item {
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #191919;
+}
+
+.main-content h1 {
+  text-align: center;
+  font-size: 35px;
+  margin: 30px 0;
+  color: #191919;
+}
+/*# sourceMappingURL=style.css.map */
